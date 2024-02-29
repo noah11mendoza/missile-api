@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Missile.Domain\Missile.Domain.csproj" />
+    <ProjectReference Include="..\Missile.Data\Missile.Data.csproj" />
   </ItemGroup>
 
 </Project>
