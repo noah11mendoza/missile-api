@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Missile.Api", "Missile.Api\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Missile.Domain", "Missile.Domain\Missile.Domain.csproj", "{D7EFCFC7-3703-43B8-B96E-B10621398486}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Missile.Data", "Missile.Data\Missile.Data.csproj", "{3A416937-73EC-40D0-8BD4-48C43BC37D74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{D7EFCFC7-3703-43B8-B96E-B10621398486}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7EFCFC7-3703-43B8-B96E-B10621398486}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7EFCFC7-3703-43B8-B96E-B10621398486}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A416937-73EC-40D0-8BD4-48C43BC37D74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A416937-73EC-40D0-8BD4-48C43BC37D74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A416937-73EC-40D0-8BD4-48C43BC37D74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A416937-73EC-40D0-8BD4-48C43BC37D74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

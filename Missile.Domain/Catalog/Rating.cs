@@ -5,6 +5,7 @@ public class Rating
         public int Stars { get; set; }
         public string UserName { get; set; }
         public string Review { get; set; }
+        public int ID { get; set; }
 
         public Rating(int stars, string userName, string review)
         {
