@@ -1,5 +1,6 @@
 ﻿using Missile.Domain.Catalog;
 using Microsoft.EntityFrameworkCore;
+using Missile.Domain.Orders;
 
 namespace Missile.Data
 {
@@ -10,6 +11,8 @@ namespace Missile.Data
         {}
 
         public DbSet<Item> Items { get; set; }
+
+        public DbSet<Order> Orders { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
